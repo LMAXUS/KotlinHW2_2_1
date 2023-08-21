@@ -5,10 +5,10 @@ data class Post(
     val date: Long, //4
     val text: String, //5
     val reply_post_id: Int, //6
-    val post_type: String, //7
-    val can_pin: Boolean, //8
-    val can_delete: Boolean, //9
-    val can_edit: Boolean, //10
+    val post_type: String = "starter", //7
+    val can_pin: Boolean = false, //8
+    val can_delete: Boolean = false, //9
+    val can_edit: Boolean = false, //10
     val comments: Comments, //Объект
     var likes: Likes, //Объект
 )
