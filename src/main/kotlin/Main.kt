@@ -58,8 +58,8 @@ class Likes{
 }
 
 fun main() {
-    val post1 = WallService.add(Post(1,376,56,1692333801,"Начало", 12, "regular",true, true, true, Comments(), Likes()))
-    val post2 = WallService.add(Post(1,242,56,1692420201,"Конец", 3, "regular",true, true, true, Comments(), Likes()))
+    val post1 = WallService.add(Post(1, 376, 56, 1692333801, "Начало", 12, "regular", true, true, true, Comments(), Likes()))
+    val post2 = WallService.add(Post(1, 242, 56, 1692420201, "Конец", 3, "regular", true, true, true, Comments(), Likes()))
     println(post1)
     println(post2)
     println(post1.likes.add(242))
